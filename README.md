@@ -57,4 +57,5 @@ RegisterNumber: 212225220053
 <img width="955" height="531" alt="Screenshot 2026-05-31 220354" src="https://github.com/user-attachments/assets/7b0412ed-27ea-4f50-8409-bf999bc731fb" />
 
 **RESULTS**
+
 Thus, SISO shift register is implemented using Quartus Software.
