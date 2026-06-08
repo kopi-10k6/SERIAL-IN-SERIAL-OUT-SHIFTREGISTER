@@ -25,17 +25,19 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 ```
-module exp5de(clk, sin, q);
-input clk;
-input sin;
-output [3:0] q;
-reg [3:0] q;
-always @(posedge clk)
+module sisomod(clk,clear,si,so);
+input clk,si,clear;
+output so;
+reg so;
+reg [3:0] tmp;
+always @(posedge clk )
 begin
-q[0] <= sin;
-q[1] <= q[0];
-q[2] <= q[1];
-q[3] <= q[2];
+if (clear)
+tmp <= 4’b0000;
+else
+tmp <= tmp << 1;
+tmp[0] <= si;
+so = tmp[3];
 end
 endmodule
 ```
