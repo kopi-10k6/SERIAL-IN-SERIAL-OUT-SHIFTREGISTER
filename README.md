@@ -51,10 +51,12 @@ RegisterNumber: 212225220053
 */
 
 **RTL LOGIC FOR SISO Shift Register**
-<img width="831" height="460" alt="Screenshot 2026-05-31 220320" src="https://github.com/user-attachments/assets/c2f12fdd-9736-412a-a7b1-fc99e3a4ec35" />
+<img width="823" height="439" alt="image" src="https://github.com/user-attachments/assets/22b1eefa-dbcf-4e6c-b351-bf669d8c08fb" />
+
 
 **TIMING DIGRAMS FOR SISO Shift Register**
-<img width="955" height="531" alt="Screenshot 2026-05-31 220354" src="https://github.com/user-attachments/assets/7b0412ed-27ea-4f50-8409-bf999bc731fb" />
+
+<img width="822" height="408" alt="image" src="https://github.com/user-attachments/assets/8cdae759-0f71-4ef1-9501-b73c3ada76a4" />
 
 **RESULTS**
 
